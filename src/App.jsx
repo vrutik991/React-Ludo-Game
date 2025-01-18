@@ -35,13 +35,13 @@ function App() {
     <>
       <h1>Ludo game begins!</h1>
       <h3 >Blue moves = {moves.blue}</h3>
-      <button onClick={updateBlue}>+1</button>
+      <button onClick={updateBlue} style={{backgroundColor:"blue"}}>+1</button>
       <h3>Yellow moves = {moves.yellow}</h3>
-      <button onClick={updateYellow}>+1</button>
+      <button onClick={updateYellow} style={{backgroundColor:"yellow",color:"black"}}>+1</button>
       <h3>Red moves = {moves.red}</h3>
-      <button onClick={updateRed}>+1</button>
+      <button onClick={updateRed} style={{backgroundColor:"red"}}>+1</button>
       <h3>Green moves = {moves.green}</h3>
-      <button onClick={updateGreen}>+1</button>
+      <button onClick={updateGreen} style={{backgroundColor:"green"}}>+1</button>
     </>
   )
 }
